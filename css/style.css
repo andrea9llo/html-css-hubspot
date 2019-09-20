@@ -60,3 +60,42 @@ a{
   color: rgb(0, 0, 0);
 }
 /* navbar due */
+.navbar2{
+  width: 100%;
+  background: #F5F8Fa;
+}
+.navbar2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav2left{
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+.nav2{
+  float: left;
+  color: #0091ae;
+  margin: 30px 8px;
+}
+.eng{
+  border-right: 2px solid #cbd6e2;
+  padding-right: 8%;
+}
+.nav2right{
+  width: 40%;
+  margin-right: 10%;
+  float: right;
+}
+.nav-2{
+  float: right;
+  color: #0091ae;
+  margin: 30px 8px;
+}
+.botton{
+  border: 1px solid black;
+  background: rgb(255, 122, 89);
+  padding: 2px 15px;
+}
+/* navbar tre */
