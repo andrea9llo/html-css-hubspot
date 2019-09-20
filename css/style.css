@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* navbar uno  */
+.navbar1{
+  width: 100%;
+  background: #33475b;
+  border-top: solid 2px red,
+}
+.navbar1:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar1-left{
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+}
+.navuno{
+  float: left;
+  padding: 1% 3%;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.colorwhite{
+  color: white;
+  opacity: 0.5;
+}
+.colorwhite:hover{
+  opacity: 1.5;
+}
+#colorred{
+  color: red;
+}
+.navbar1-right{
+  width: 45%;
+  margin-right: 5%;
+  float: right;
+}
+.nav-uno{
+  float: right;
+  padding: 1% 4%;
+}
+.sett{
+  border-right: solid red 1px;
+}
+.profile{
+  color: red;
+  opacity: 0.4;
+}
+.colorblack{
+  color: rgb(0, 0, 0);
+}
+/* navbar due */
