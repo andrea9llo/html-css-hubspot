@@ -96,7 +96,7 @@ a{
   color: #0091ae;
   margin: 30px 8px;
 }
-.botton{
+.button{
   border: 1px solid black;
   background: rgb(255, 122, 89);
   padding: 2px 15px;
@@ -125,4 +125,32 @@ a{
   float: right;
   margin: 20px 8px;
   color: rgb(51, 71, 91);
+}
+/* blocco img */
+.sfondo{
+  background: url("../img/sfondo.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 550px;
+}
+.slogan{
+  margin-left: 10%;
+  width: 30%;
+  padding-top: 5%;
+}
+h1{
+  font-size: 50px;
+  color:  #33475b;
+  padding-bottom: 5%;
+}
+#sottotit{
+  color: #687481;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+.buttom-due{
+  border-radius: 2%;
+  background: rgb(255, 122, 89);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 5%;
 }
