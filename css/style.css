@@ -286,7 +286,7 @@ h5{
   font-size: 22px;
   margin-top: 5%;
 }
-hr{
+.linea{
   border-top: 2px solid rgba(0, 0, 0, .1);
   margin-top: 20px;
 }
@@ -400,7 +400,7 @@ h3{
 /* blocco profile */
 .customersinf{
   padding-top: 150px;
-  width: 70%;
+  width: 60%;
   margin: auto;
   background-image: url("../img/images.webp");
   background-repeat: no-repeat;
@@ -413,6 +413,90 @@ h3{
 }
 .homepage{
   padding-top: 50px;
-  margin-bottom: 180px;
+  margin-bottom: 150px;
 }
 /* blocco footer */
+footer{
+  width: 100%;
+  background: #33475b;
+}
+.contfooter{
+  width: 60%;
+  margin: auto;
+  padding-top: 80px;
+}
+.contfooter{
+  content: "";
+  display: table;
+  clear: both;
+}
+.lista-footer{
+  width: 25%;
+  float: left;
+  padding: 0 1rem;
+}
+.prima-lista{
+  padding-left: 0;
+}
+.ultima-lista{
+  padding-right: 0;
+}
+.menufoot{
+  padding: 4% 0;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+}
+.a-color{
+  color: #cbd6e2;
+  font-size: 16px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.a-color:hover{
+  color: #0091ae;
+}
+.last{
+  margin-bottom: 5%;
+}
+#pulsante{
+  color: #0091ae;
+  background: white;
+  border-radius: 2%;
+  padding: 4%;
+}
+.social{
+  display: inline-block;
+  color: #cbd6e2;
+  margin-top: 25px;
+  padding: 0px 24px 0 0px;
+}
+.lingue{
+  display: inline-block;
+  margin-top: 100px;
+  padding: 30px;
+}
+.sceltalin{
+  margin-top: 100px;
+  text-align: center;
+}
+.colorlinea{
+  border-top: 2px solid #cbd6e2;
+  margin: 20px 0;
+}
+.copyright{
+  width: 50%;
+  float: left;
+  margin-bottom: 60px;
+}
+.copyright-destra{
+  width: 50%;
+  float: right;
+}
+#copy{
+  color: #cbd6e2;
+  font-size: 12px;
+}
+.privacy{
+  float: right;
+  padding-left: 30px;
+}
