@@ -158,23 +158,29 @@ h1{
 /*parte img cubo  */
 .container{
   width: 100%;
-  height: 1000px;
   background-color: #F5F8Fa;
   background-image: url("../img/cubo.png");
   background-repeat: no-repeat;
   background-size: 300px 200px;
   background-position: 50% 12%;
 }
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .textcubo{
   text-align: center;
   padding-top: 300px;
   width: 50%;
   margin: auto;
+
 }
 .title{
   font-size: 40px;
   color: #33475b;
   margin-bottom: 20px;
+  margin-top: 70px;
 }
 .parcubo{
   font-size: 17px;
@@ -226,6 +232,8 @@ h1{
 }
 .parcont{
   margin-top: 20px;
+  color: #72808d;
+  font-size: 17px;
 }
 h5{
   margin-top: 40px;
@@ -235,8 +243,64 @@ h5{
 .lista{
   display: inline-block;
   margin: 15px 0 0 0;
+  color: #72808d;
 }
 .segno{
   color: rgb(255, 122, 89);
 }
 /* blocco tre colonne  */
+.trecolonne{
+  width: 60%;
+  margin: auto;
+  height: 300px;
+  margin-top: 4%;
+}
+.trecolonne::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.primacol{
+  width: 30%;
+  background: white;
+  float: left;
+  border-radius: 1%;
+  padding: 3% 3%;
+  margin-bottom: 10%;
+}
+.imgcolonne{
+  width: 220px;
+  height: 150px;
+}
+.titolidue{
+  text-align: center;
+  color: #33475b;
+  font-size: 22px;
+  margin-top: 5%;
+}
+hr{
+  border-top: 2px solid rgba(0, 0, 0, .1);
+  margin-top: 20px;
+}
+.popular{
+  text-align: center;
+}
+
+.secondacol{
+  width: 30%;
+  margin-bottom: 10%;
+  background: white;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 1%;
+  padding: 3% 3%;
+}
+.terzacol{
+  width: 30%;
+  margin-bottom: 10%;
+  background: white;
+  float: left;
+  border-radius: 1%;
+  padding: 3% 3%;
+}
