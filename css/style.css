@@ -425,7 +425,7 @@ footer{
   margin: auto;
   padding-top: 80px;
 }
-.contfooter{
+.contfooter::after{
   content: "";
   display: table;
   clear: both;
@@ -472,7 +472,6 @@ footer{
 }
 .lingue{
   display: inline-block;
-  margin-top: 100px;
   padding: 30px;
 }
 .sceltalin{
@@ -487,6 +486,15 @@ footer{
   width: 50%;
   float: left;
   margin-bottom: 60px;
+}
+.contfooter-inf{
+  width: 60%;
+  margin: auto;
+}
+.contfooter-inf::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .copyright-destra{
   width: 50%;
